@@ -38,6 +38,12 @@ export default defineNuxtConfig({
     provider: { type: 'local' },
   },
 
+  components: {
+    dirs: [
+      '~/components/shared',
+    ],
+  },
+
   css: ['~/assets/css/main.css'],
 
   vite: {

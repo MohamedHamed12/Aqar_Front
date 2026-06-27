@@ -1,4 +1,65 @@
 {
   "welcome": "Welcome to Aqar",
-  "description": "Property Management System"
+  "description": "Property Management System",
+
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "postListing": "Post a Listing",
+    "neighborhoodAnalytics": "Neighborhood Analytics",
+    "login": "Login",
+    "register": "Register",
+    "myDashboard": "My Dashboard",
+    "logout": "Logout",
+    "language": "العربية"
+  },
+
+  "footer": {
+    "tagline": "Empowering real estate decisions with AI-powered intelligence and comprehensive market data.",
+    "platform": "Platform",
+    "searchProperties": "Search Properties",
+    "neighborhoodInsights": "Neighborhood Insights",
+    "marketTrends": "Market Trends",
+    "propertyValuation": "Property Valuation",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "careers": "Careers",
+    "blog": "Blog",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Subscribe to our newsletter for the latest market insights.",
+    "subscribe": "Subscribe",
+    "yourEmail": "Your email address",
+    "copyright": "© 2024 Aqar Real Estate Intelligence. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy"
+  },
+
+  "auth": {
+    "welcomeBack": "Welcome Back",
+    "signInToAccount": "Sign in to your account",
+    "email": "Email",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "signIn": "Sign In",
+    "noAccount": "Don't have an account?",
+    "createAccount": "Create Account",
+    "registerTitle": "Create an Account",
+    "registerDesc": "Join Aqar to get started",
+    "name": "Full Name",
+    "confirmPassword": "Confirm Password",
+    "alreadyHaveAccount": "Already have an account?"
+  },
+
+  "dashboard": {
+    "title": "Dashboard",
+    "overview": "Overview",
+    "myProperties": "My Properties",
+    "favorites": "Favorites",
+    "analytics": "Analytics",
+    "messages": "Messages",
+    "settings": "Settings"
+  }
 }

@@ -1,4 +1,65 @@
 {
   "welcome": "مرحباً بكم في عقار",
-  "description": "نظام إدارة العقارات"
+  "description": "نظام إدارة العقارات",
+
+  "nav": {
+    "home": "الرئيسية",
+    "search": "بحث",
+    "postListing": "إعلن عن عقار",
+    "neighborhoodAnalytics": "تحليلات الأحياء",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "myDashboard": "لوحة التحكم",
+    "logout": "تسجيل الخروج",
+    "language": "English"
+  },
+
+  "footer": {
+    "tagline": "تمكين قرارات العقارات باستخدام الذكاء الاصطناعي وبيانات السوق الشاملة.",
+    "platform": "المنصة",
+    "searchProperties": "البحث عن عقارات",
+    "neighborhoodInsights": "تحليلات الأحياء",
+    "marketTrends": "اتجاهات السوق",
+    "propertyValuation": "تقييم العقارات",
+    "company": "الشركة",
+    "aboutUs": "من نحن",
+    "contactUs": "اتصل بنا",
+    "careers": "الوظائف",
+    "blog": "المدونة",
+    "newsletter": "النشرة البريدية",
+    "newsletterDesc": "اشترك في نشرتنا البريدية لآخر تحليلات السوق.",
+    "subscribe": "اشترك",
+    "yourEmail": "بريدك الإلكتروني",
+    "copyright": "© 2024 عقار للاستخبارات العقارية. جميع الحقوق محفوظة.",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "cookiePolicy": "سياسة ملفات تعريف الارتباط"
+  },
+
+  "auth": {
+    "welcomeBack": "مرحباً بعودتك",
+    "signInToAccount": "تسجيل الدخول إلى حسابك",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "rememberMe": "تذكرني",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "signIn": "تسجيل الدخول",
+    "noAccount": "ليس لديك حساب؟",
+    "createAccount": "إنشاء حساب",
+    "registerTitle": "إنشاء حساب جديد",
+    "registerDesc": "انضم إلى عقار للبدء",
+    "name": "الاسم الكامل",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟"
+  },
+
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "overview": "نظرة عامة",
+    "myProperties": "عقاراتي",
+    "favorites": "المفضلة",
+    "analytics": "التحليلات",
+    "messages": "الرسائل",
+    "settings": "الإعدادات"
+  }
 }

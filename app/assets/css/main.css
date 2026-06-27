@@ -1,1 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap');
+
 @import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-heading: var(--font-sans);
+  --color-primary: #0050cb;
+  --color-primary-hover: #0066ff;
+  --color-accent: #6dfad2;
+  --color-surface: #f9f9ff;
+  --color-text-dark: #141b2b;
+  --color-text-secondary: #424656;
+  --color-text-muted: #727687;
+  --color-border-color: #c2c6d8;
+  --color-danger: #ba1a1a;
+
+  --color-background: #ffffff;
+  --color-foreground: #141b2b;
+  --color-card: #ffffff;
+  --color-card-foreground: #141b2b;
+  --color-popover: #ffffff;
+  --color-popover-foreground: #141b2b;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f9f9ff;
+  --color-secondary-foreground: #141b2b;
+  --color-muted: #f9f9ff;
+  --color-muted-foreground: #727687;
+  --color-accent-foreground: #141b2b;
+  --color-destructive: #ba1a1a;
+  --color-destructive-foreground: #ffffff;
+  --color-border: #c2c6d8;
+  --color-input: #c2c6d8;
+  --color-ring: #0050cb;
+  --radius: 0.5rem;
+  --color-sidebar-background: #e9edff;
+  --color-sidebar-foreground: #141b2b;
+  --color-sidebar-primary: #0050cb;
+  --color-sidebar-primary-foreground: #ffffff;
+  --color-sidebar-accent: #6dfad2;
+  --color-sidebar-accent-foreground: #141b2b;
+  --color-sidebar-border: #c2c6d8;
+  --color-sidebar-ring: #0050cb;
+}
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #141b2b;
+  --card: #ffffff;
+  --card-foreground: #141b2b;
+  --popover: #ffffff;
+  --popover-foreground: #141b2b;
+  --primary: #0050cb;
+  --primary-foreground: #ffffff;
+  --secondary: #f9f9ff;
+  --secondary-foreground: #141b2b;
+  --muted: #f9f9ff;
+  --muted-foreground: #727687;
+  --accent: #6dfad2;
+  --accent-foreground: #141b2b;
+  --destructive: #ba1a1a;
+  --destructive-foreground: #ffffff;
+  --border: #c2c6d8;
+  --input: #c2c6d8;
+  --ring: #0050cb;
+  --radius: 0.5rem;
+  --sidebar-background: #e9edff;
+  --sidebar-foreground: #141b2b;
+  --sidebar-primary: #0050cb;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #6dfad2;
+  --sidebar-accent-foreground: #141b2b;
+  --sidebar-border: #c2c6d8;
+  --sidebar-ring: #0050cb;
+}
