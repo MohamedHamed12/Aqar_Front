@@ -16,7 +16,9 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet'
 
-const { t, locale, setLocale } = useI18n()
+const { t, locale } = useI18n()
+const localePath = useLocalePath()
+const switchLocalePath = useSwitchLocalePath()
 const route = useRoute()
 const authStore = useAuthStore()
 
@@ -34,7 +36,10 @@ function isActive(path: string) {
 }
 
 function toggleLanguage() {
-  setLocale(locale.value === 'ar' ? 'en' : 'ar')
+  const target = locale.value === 'ar' ? 'en' : 'ar'
+  const path = switchLocalePath(target)
+  if (path)
+    navigateTo(path)
 }
 
 const initials = computed(() => {
@@ -111,12 +116,12 @@ const initials = computed(() => {
 
         <template v-else>
           <Button variant="ghost" as-child>
-            <NuxtLink to="/auth/login">
+            <NuxtLink :to="localePath('/auth/login')">
               {{ t('nav.login') }}
             </NuxtLink>
           </Button>
           <Button as-child>
-            <NuxtLink to="/auth/register">
+            <NuxtLink :to="localePath('/auth/register')">
               {{ t('nav.register') }}
             </NuxtLink>
           </Button>
@@ -197,12 +202,12 @@ const initials = computed(() => {
             <template v-else>
               <div class="flex flex-col gap-2">
                 <Button as-child class="w-full">
-                  <NuxtLink to="/auth/login" @click="mobileMenuOpen = false">
+                  <NuxtLink :to="localePath('/auth/login')" @click="mobileMenuOpen = false">
                     {{ t('nav.login') }}
                   </NuxtLink>
                 </Button>
                 <Button variant="outline" as-child class="w-full">
-                  <NuxtLink to="/auth/register" @click="mobileMenuOpen = false">
+                  <NuxtLink :to="localePath('/auth/register')" @click="mobileMenuOpen = false">
                     {{ t('nav.register') }}
                   </NuxtLink>
                 </Button>

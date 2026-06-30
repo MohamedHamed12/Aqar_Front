@@ -1,6 +1,7 @@
 {
   "welcome": "Welcome to Aqar",
   "description": "Property Management System",
+  "appName": "Aqar",
 
   "nav": {
     "home": "Home",
@@ -38,19 +39,40 @@
 
   "auth": {
     "welcomeBack": "Welcome Back",
-    "signInToAccount": "Sign in to your account",
+    "signInToAccount": "Please enter your details to access your account.",
     "email": "Email",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter your email address",
     "password": "Password",
+    "passwordPlaceholder": "••••••••",
+    "passwordHint": "Must be at least 8 characters with a mix of letters and numbers.",
     "rememberMe": "Remember me",
+    "rememberFor30": "Remember for 30 days",
     "forgotPassword": "Forgot password?",
     "signIn": "Sign In",
     "noAccount": "Don't have an account?",
     "createAccount": "Create Account",
-    "registerTitle": "Create an Account",
-    "registerDesc": "Join Aqar to get started",
+    "registerTitle": "Create Account",
+    "registerDesc": "Join the community of real estate professionals and enthusiasts.",
+    "registerBrandDesc": "Access transparent data-driven reports for comprehensive real estate market intelligence.",
     "name": "Full Name",
+    "namePlaceholder": "John Doe",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "50 123 4567",
+    "termsLabel": "I agree to the Terms of Service and Privacy Policy.",
     "confirmPassword": "Confirm Password",
-    "alreadyHaveAccount": "Already have an account?"
+    "alreadyHaveAccount": "Already have an account?",
+    "investor": "Investor",
+    "agent": "Agent",
+    "orContinueWith": "Or continue with",
+    "marketInsights": "Market Insights",
+    "marketInsightsDesc": "Access transparent data-driven reports.",
+    "verifiedListings": "Verified Listings",
+    "verifiedListingsDesc": "Direct connection with premium agents.",
+    "realEstateIntelligence": "Real Estate Intelligence",
+    "theStandard": "The Standard",
+    "trustedSource": "The MENA market's most trusted data source.",
+    "trustedSourceDesc": "Access real-time transparency and clinical precision for every property listing and market trend."
   },
 
   "dashboard": {

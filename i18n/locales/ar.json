@@ -1,6 +1,7 @@
 {
   "welcome": "مرحباً بكم في عقار",
   "description": "نظام إدارة العقارات",
+  "appName": "عقار",
 
   "nav": {
     "home": "الرئيسية",
@@ -38,19 +39,40 @@
 
   "auth": {
     "welcomeBack": "مرحباً بعودتك",
-    "signInToAccount": "تسجيل الدخول إلى حسابك",
+    "signInToAccount": "يرجى إدخال بياناتك للوصول إلى حسابك.",
     "email": "البريد الإلكتروني",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
     "password": "كلمة المرور",
+    "passwordPlaceholder": "••••••••",
+    "passwordHint": "يجب أن تكون 8 أحرف على الأقل مع مزيج من الحروف والأرقام.",
     "rememberMe": "تذكرني",
+    "rememberFor30": "تذكرني لمدة 30 يوماً",
     "forgotPassword": "نسيت كلمة المرور؟",
     "signIn": "تسجيل الدخول",
     "noAccount": "ليس لديك حساب؟",
     "createAccount": "إنشاء حساب",
-    "registerTitle": "إنشاء حساب جديد",
-    "registerDesc": "انضم إلى عقار للبدء",
+    "registerTitle": "إنشاء حساب",
+    "registerDesc": "انضم إلى مجتمع المحترفين العقاريين والمهتمين.",
+    "registerBrandDesc": "احصل على تقارير شفافة مدعومة بالبيانات لتحليلات سوق عقارية شاملة.",
     "name": "الاسم الكامل",
+    "namePlaceholder": "John Doe",
+    "phoneLabel": "رقم الهاتف",
+    "phonePlaceholder": "50 123 4567",
+    "termsLabel": "أوافق على شروط الخدمة وسياسة الخصوصية.",
     "confirmPassword": "تأكيد كلمة المرور",
-    "alreadyHaveAccount": "لديك حساب بالفعل؟"
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "investor": "مستثمر",
+    "agent": "وسيط",
+    "orContinueWith": "أو تابع باستخدام",
+    "marketInsights": "تحليلات السوق",
+    "marketInsightsDesc": "احصل على تقارير شفافة مدعومة بالبيانات.",
+    "verifiedListings": "قوائم موثقة",
+    "verifiedListingsDesc": "تواصل مباشر مع وكلاء معتمدين.",
+    "realEstateIntelligence": "الاستخبارات العقارية",
+    "theStandard": "المعيار",
+    "trustedSource": "مصدر البيانات الأكثر ثقة في سوق الشرق الأوسط.",
+    "trustedSourceDesc": "احصل على شفافية فورية ودقة متناهية لكل قائمة عقارية واتجاه سوقي."
   },
 
   "dashboard": {
